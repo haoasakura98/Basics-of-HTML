@@ -1,2 +1,2 @@
 # html
-Learning html
+Learning the basics of html
