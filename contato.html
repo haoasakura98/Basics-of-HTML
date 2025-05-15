@@ -3,11 +3,35 @@
 
 <head>
 	<title> Aprendendo HTML </title>
+
+	<style>
+
+		h1, h2, h3, h4, h5, h6{
+			color:blue;
+			text-align:center;
+		}
+
+		#menu-principal ul{
+			display:flex;
+			list-style-type: none;
+			margin:0px;
+			padding:0px;
+		}
+
+		#menu-principal li{
+			margin:10px;
+		}
+
+		#menu-principal a{
+			text-decoration:none;
+		}
+
+	</style>
 </head>
 
 <body>
 <header>
-	<nav>
+	<nav id="menu-principal">
 	
 		<ul>
 			<li><a href="index.html">Home</a></li>
