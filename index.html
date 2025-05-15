@@ -3,12 +3,38 @@
 
 <head>
 	<title> Aprendendo HTML </title>
+
+	<link rel="stylesheet" href="estilos.css">
+	
+	<style>
+
+		h1, h2, h3, h4, h5, h6{
+			color:blue;
+			text-align:center;
+		}
+
+		#menu-principal ul{
+			display:flex;
+			list-style-type: none;
+			margin:0px;
+			padding:0px;
+		}
+
+		#menu-principal li{
+			margin:10px;
+		}
+
+		#menu-principal a{
+			text-decoration:none;
+		}
+
+	</style>
 </head>
 
 <body>
 
 <header>
-	<nav>
+	<nav id="menu-principal">
 	
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -22,15 +48,18 @@
 
 
 <main>
+
+
+
 	<h1> Primeira Página HTML </h1>
 	<h2> Objetivos </h2>
 	<p> Criar uma página HTML utilizando o máximo de tags possíveis </p>
 	
-	<h2> Formatadores de textos</h3>
+	<h2> Formatadores de textos</h2>
 	<p>
 		Utilizar formatadores de textos como <br>
 		
-		<b>NEGRITO</b>, <i>ITALÍCO</i>,<s>SUBLINHADO</s>, <small>PEQUENO</small><br>
+		<b>NEGRITO</b>, <i>ITALÍCO</i>,<s>TACHADO</s>, <u>SUBLINHADO</u>, </u><small>PEQUENO</small><br>
 		
 		SUBSCRITO<sub>2</sub>, SOBESCRITO<sup>2</sup>, <mark>MARCADO</mark><br>
 		
