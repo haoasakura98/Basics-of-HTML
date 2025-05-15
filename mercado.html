@@ -3,12 +3,38 @@
 
 <head>
 	<title> Aprendendo HTML </title>
+
+	<link rel="stylesheet" href="estilos.css">
+
+	<style>
+
+		h1, h2, h3, h4, h5, h6{
+			color:blue;
+			text-align:center;
+		}
+
+		#menu-principal ul{
+			display:flex;
+			list-style-type: none;
+			margin:0px;
+			padding:0px;
+		}
+
+		#menu-principal li{
+			margin:10px;
+		}
+
+		#menu-principal a{
+			text-decoration:none;
+		}
+
+	</style>
 </head>
 
 <body>
 
 <header>
-	<nav>
+	<nav id="menu-principal">
 	
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -23,13 +49,15 @@
 <main>
 
 	<article>
-		<p> Skins no Counter-strike tem como fatores determinantes no preço o nível de desgate (Factory-new, Minimal Wear, Field-tested, Well-Worn e Battle-scarred).</p>
-		<p>Isso se deve ao fato de que a quantidade de itens factory-new é menor que de minimal-wear, que é menor que field-tested e assim por diante...</p>
-		<p>Dentro de um mesmo nível de desgaste também pode haver diferença de preço. O desgate da Factory-new vai de 0.00000000000... até 0.007000000...</p>
-		<p>Assim, uma skin factory new com desgate 0.00051231... vale mais que uma com desgate 0.0405812...</p>
-		<p>Outros fatores relevantes são o valor dos adesivos colados e o pattern, que significa como a arma foi pintada</p>
-		<p>Entre exemplos de diferença por patterns, há as armas FADE, as armas DOPPLERS, as armas CASE HARDENED</p>
-		<p>Para exemplificar: A glock-18 FADE tem como fator relevante no seu preço o nivel % de cor. Uma glock com fade em 99% vale mais que uma com fade em 83%.</p>
+		<p> Skins no Counter-strike tem como fatores determinantes no preço o nível de desgate (Factory-new, Minimal Wear, Field-tested, Well-Worn e Battle-scarred). 
+		Isso se deve ao fato de que a quantidade de itens factory-new é menor que de minimal-wear, que é menor que field-tested e assim por diante...
+		Dentro de um mesmo nível de desgaste também pode haver diferença de preço. O desgate da Factory-new vai de 0.00000000000... até 0.007000000...</p>
+
+		<p>Assim, uma skin factory new com desgate 0.00051231... vale mais que uma com desgate 0.0405812...
+		Outros fatores relevantes são o valor dos adesivos colados e o pattern, que significa como a arma foi pintada
+		Entre exemplos de diferença por patterns, há as armas FADE, as armas DOPPLERS, as armas CASE HARDENED
+		Para exemplificar: A glock-18 FADE tem como fator relevante no seu preço o nivel % de cor. Uma glock com fade em 99% vale mais que uma com fade em 83%.</p>
+
 		<img src="img/glock-18 fade 83.7.png" alt="glock fade 83" title="fade 83" width="300">
 		<img src="img/glock-18 fade 99.png" alt="glock fade 99" title="fade 99" width="300">
 		
@@ -45,7 +73,7 @@
 		<li>Repetir passo 2</list>
 	</ol>
 	
-	<h2>Dicas de escolha das skins</h2>
+	<h2>Lista não ordenada - dicas de escolha das skins</h2>
 	<ul>
 		<li>Checar o volume de vendas da skin</li>
 		<li>Checar o historico de preço da skin</li>
